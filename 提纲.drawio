@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T08:21:33.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="k-KGPUYzEQsgvzMt6pRJ" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T08:24:24.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="rQNLKw9hLb5Akn4pM0PZ" version="14.2.9" type="github">
   <diagram id="z3GyR7A54I9U31B_GoPv" name="Page-1">
     <mxGraphModel dx="942" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,10 +84,13 @@
         <mxCell id="in1QYTWhq0JFoHGU_2zg-8" value="java 虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="737.5" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIEAwptK6OVoQAMgSk5o-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="in1QYTWhq0JFoHGU_2zg-9">
+        <mxCell id="WIEAwptK6OVoQAMgSk5o-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in1QYTWhq0JFoHGU_2zg-9" target="WIEAwptK6OVoQAMgSk5o-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="524" y="365" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WIEAwptK6OVoQAMgSk5o-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="in1QYTWhq0JFoHGU_2zg-9" target="WIEAwptK6OVoQAMgSk5o-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="in1QYTWhq0JFoHGU_2zg-9" value="&lt;b&gt;类加载机制&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="335" width="60" height="60" as="geometry" />
@@ -164,40 +167,38 @@
         <mxCell id="in1QYTWhq0JFoHGU_2zg-108" value="&lt;div style=&quot;text-align: left ; line-height: 1.75&quot;&gt;&lt;div style=&quot;line-height: 1.75&quot;&gt;&lt;div style=&quot;line-height: 1.75&quot;&gt;-Xss   每个线程的栈帧内存大小&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;opacity=60;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="530" y="1105" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WIEAwptK6OVoQAMgSk5o-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WIEAwptK6OVoQAMgSk5o-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="744" y="362" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="WIEAwptK6OVoQAMgSk5o-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=-0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WIEAwptK6OVoQAMgSk5o-2" target="WIEAwptK6OVoQAMgSk5o-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-2" value="类加载过程(加载&amp;gt;验证.&amp;gt;准备&amp;gt;解析&amp;gt;初始化&amp;gt; 使用&amp;gt; 卸载)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="335" width="159" height="54" as="geometry" />
+          <mxGeometry x="531" y="281" width="159" height="54" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="755" y="260" width="270" height="200" as="geometry" />
+          <mxGeometry x="762" y="210" width="270" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-5" value="加载:包含main 方法的主类一定会在jvm启动后被加载到内存,开始执行main方法,如果包含其他的类,也会加载对对应的.class文件到内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="762" y="280" width="279" height="20" as="geometry" />
+          <mxGeometry x="769" y="230" width="279" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-6" value="验证:验证字节码文件是否符合jvm规范" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="731" y="320" width="272" height="20" as="geometry" />
+          <mxGeometry x="741" y="271" width="272" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-7" value="准备:分配内存空间,给初始值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="708.5" y="375" width="262" height="20" as="geometry" />
+          <mxGeometry x="756" y="320" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-8" value="解析:把符号引用直接替换为直接引用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="741" y="350" width="242" height="20" as="geometry" />
+          <mxGeometry x="748" y="300" width="242" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-9" value="初始化:成员变量,或者是静态代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="748" y="395" width="212" height="20" as="geometry" />
+          <mxGeometry x="756" y="348" width="212" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-11" value="卸载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="762" y="438" width="40" height="20" as="geometry" />
+          <mxGeometry x="769" y="388" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-17" value="使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="762" y="418" width="40" height="20" as="geometry" />
+          <mxGeometry x="769" y="368" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-24" value="类加载器和双亲委派机制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="406" width="159" height="54" as="geometry" />
+          <mxGeometry x="531" y="450" width="159" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
