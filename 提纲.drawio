@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T03:13:48.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="TRObqwiiAMSbaCFTfoNM" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T03:15:42.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="UBg708jOHD3zQvPMqWYC" version="14.2.9" type="github">
   <diagram id="z3GyR7A54I9U31B_GoPv" name="Page-1">
     <mxGraphModel dx="942" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-1" value="自定义类加载器&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="756" y="510" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-2" value="应用程序加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GlajLDLupA4pZ8vr5cQ3-2" value="应用程序类加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="756" y="457.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-3" value="扩展类加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
