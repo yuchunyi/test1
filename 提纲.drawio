@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T05:45:43.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="r-5neyEnA0Kdc39VnlfU" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T08:28:19.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="tUMktKwFi-mDT39D-8W6" version="14.2.9" type="github">
   <diagram id="z3GyR7A54I9U31B_GoPv" name="Page-1">
-    <mxGraphModel dx="1108" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,116 +171,144 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-2" value="类加载过程(加载&amp;gt;验证.&amp;gt;准备&amp;gt;解析&amp;gt;初始化&amp;gt; 使用&amp;gt; 卸载)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="531" y="201" width="159" height="54" as="geometry" />
+          <mxGeometry x="530" y="141" width="159" height="54" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="762" y="130" width="270" height="200" as="geometry" />
+          <mxGeometry x="761" y="70" width="270" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-5" value="加载:包含main 方法的主类一定会在jvm启动后被加载到内存,开始执行main方法,如果包含其他的类,也会加载对对应的.class文件到内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="769" y="150" width="279" height="20" as="geometry" />
+          <mxGeometry x="768" y="90" width="279" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-6" value="验证:验证字节码文件是否符合jvm规范" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="741" y="191" width="272" height="20" as="geometry" />
+          <mxGeometry x="740" y="131" width="272" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-7" value="准备:分配内存空间,给初始值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="756" y="240" width="190" height="20" as="geometry" />
+          <mxGeometry x="755" y="180" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-8" value="解析:把符号引用直接替换为直接引用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="748" y="220" width="242" height="20" as="geometry" />
+          <mxGeometry x="747" y="160" width="242" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-9" value="初始化:成员变量,或者是静态代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="756" y="268" width="212" height="20" as="geometry" />
+          <mxGeometry x="755" y="208" width="212" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-11" value="卸载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="769" y="308" width="40" height="20" as="geometry" />
+          <mxGeometry x="768" y="248" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-17" value="使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="769" y="288" width="40" height="20" as="geometry" />
+          <mxGeometry x="768" y="228" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WIEAwptK6OVoQAMgSk5o-24" value="类加载器和双亲委派机制" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="531" y="370" width="159" height="54" as="geometry" />
         </mxCell>
+        <mxCell id="zpKkLfYcL7zz8W2aOzbh-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GlajLDLupA4pZ8vr5cQ3-1" target="GlajLDLupA4pZ8vr5cQ3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-1" value="自定义类加载器&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="756" y="510" width="284" height="30" as="geometry" />
+          <mxGeometry x="741" y="555" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpKkLfYcL7zz8W2aOzbh-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GlajLDLupA4pZ8vr5cQ3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="971" y="455" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-2" value="应用程序类加载器Apllication ClassLoder" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="756" y="457.5" width="284" height="30" as="geometry" />
+          <mxGeometry x="830" y="487.5" width="284" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-3" value="扩展类加载器Extention ClassLoader(lib/ext)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="756" y="402" width="284" height="30" as="geometry" />
+        <mxCell id="zpKkLfYcL7zz8W2aOzbh-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GlajLDLupA4pZ8vr5cQ3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="375" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-4" value="启动类加载器Bootstrap ClassLoader(lib下的核心类)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="756" y="350" width="284" height="30" as="geometry" />
+        <mxCell id="GlajLDLupA4pZ8vr5cQ3-3" value="扩展类加载器Extention ClassLoader(jre/lib/ext)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="828" y="419" width="284" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-5" value="双亲委派机制" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="756" y="560" width="284" height="30" as="geometry" />
+        <mxCell id="GlajLDLupA4pZ8vr5cQ3-4" value="启动类加载器Bootstrap ClassLoader(jre/lib下的核心类)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="829" y="340" width="284" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="440" as="targetPoint" />
+            <mxPoint x="1370" y="224" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-6" value="方法区" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="335" width="120" height="60" as="geometry" />
+          <mxGeometry x="1310" y="119" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-7" target="GlajLDLupA4pZ8vr5cQ3-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-7" target="GlajLDLupA4pZ8vr5cQ3-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GlajLDLupA4pZ8vr5cQ3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="344" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="257" />
+              <mxPoint x="1460" y="344" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-7" value="字节码执行器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="443" width="120" height="60" as="geometry" />
+          <mxGeometry x="1310" y="227" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-8" target="GlajLDLupA4pZ8vr5cQ3-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-8" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="442.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1500" y="226.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-10" target="GlajLDLupA4pZ8vr5cQ3-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GlajLDLupA4pZ8vr5cQ3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620" y="344" as="sourcePoint" />
+            <mxPoint x="1670" y="344" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-10" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1500" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-11" target="GlajLDLupA4pZ8vr5cQ3-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-11" value="main线程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1590" y="443" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="227" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GlajLDLupA4pZ8vr5cQ3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-12" target="GlajLDLupA4pZ8vr5cQ3-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GlajLDLupA4pZ8vr5cQ3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="344" as="sourcePoint" />
+            <mxPoint x="1860" y="344" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-12" value="线程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1590" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-13" target="GlajLDLupA4pZ8vr5cQ3-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-13" value="java虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="443" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="227" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-14" value="java虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-15" value="堆内存" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="114" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1283" y="330" as="targetPoint" />
+            <mxPoint x="1363" y="114" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-17" value="&lt;span&gt;ReplIcaMapper.class&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1218" y="246" width="130" height="42" as="geometry" />
+          <mxGeometry x="1298" y="30" width="130" height="42" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GlajLDLupA4pZ8vr5cQ3-18" target="GlajLDLupA4pZ8vr5cQ3-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GlajLDLupA4pZ8vr5cQ3-18" value="&lt;span&gt;kafka.class&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="345" width="110" height="40" as="geometry" />
+          <mxGeometry x="1170" y="129" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zpKkLfYcL7zz8W2aOzbh-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.683;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zpKkLfYcL7zz8W2aOzbh-2" target="GlajLDLupA4pZ8vr5cQ3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpKkLfYcL7zz8W2aOzbh-2" value="自定义类加载器&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="555" width="178" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
